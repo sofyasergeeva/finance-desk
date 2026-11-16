@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<ChartOfCharacteristicTypes uuid="35d68d40-31ee-447d-940a-18cd5d7734c8">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.ВидыСубконтоХозрасчетные" category="Object">
+				<xr:TypeId>2adfd074-e44c-4fcb-a538-6fbbb5c7cd68</xr:TypeId>
+				<xr:ValueId>d34923b3-bbfa-4993-8261-18aabcf9a9ff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.ВидыСубконтоХозрасчетные" category="Ref">
+				<xr:TypeId>9d913c3d-1b12-48e5-ba12-82262359f642</xr:TypeId>
+				<xr:ValueId>d1c979cd-92db-47b4-8a9b-3c2d6df87e73</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.ВидыСубконтоХозрасчетные" category="Selection">
+				<xr:TypeId>8587e5f0-41f0-41e2-a0a0-197d50a4a0b1</xr:TypeId>
+				<xr:ValueId>17f05624-141b-47dc-8398-e6d8e767893a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.ВидыСубконтоХозрасчетные" category="List">
+				<xr:TypeId>2024343c-a21a-4d65-8c11-6c84d5c6439c</xr:TypeId>
+				<xr:ValueId>1ba8b729-c9c3-4261-b42b-7f7717560b3e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="Characteristic.ВидыСубконтоХозрасчетные" category="Characteristic">
+				<xr:TypeId>3675ef87-f354-4e93-bd38-c7daabb05329</xr:TypeId>
+				<xr:ValueId>78f5fa17-34b9-4809-812f-d3c4f020687d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.ВидыСубконтоХозрасчетные" category="Manager">
+				<xr:TypeId>3c62c96b-acab-40bb-a309-a22696533e04</xr:TypeId>
+				<xr:ValueId>3626e004-fae6-4ba0-90ce-3dead61c88c4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыСубконтоХозрасчетные</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды субконто хозрасчетные</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<CharacteristicExtValues/>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+				<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+				<v8:Type>cfg:CatalogRef.БанковскиеСчета</v8:Type>
+				<v8:Type>cfg:CatalogRef.Договоры</v8:Type>
+				<v8:Type>cfg:CatalogRef.Кассы</v8:Type>
+			</Type>
+			<Hierarchical>false</Hierarchical>
+			<FoldersOnTop>true</FoldersOnTop>
+			<CodeLength>9</CodeLength>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+			<DescriptionLength>25</DescriptionLength>
+			<CodeSeries>WholeCharacteristicKind</CodeSeries>
+			<CheckUnique>true</CheckUnique>
+			<Autonumbering>true</Autonumbering>
+			<DefaultPresentation>AsDescription</DefaultPresentation>
+			<Characteristics/>
+			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
+			<EditType>InDialog</EditType>
+			<QuickChoice>false</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<InputByString>
+				<xr:Field>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетные.StandardAttribute.Description</xr:Field>
+				<xr:Field>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетные.StandardAttribute.Code</xr:Field>
+			</InputByString>
+			<CreateOnInput>DontUse</CreateOnInput>
+			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<DefaultObjectForm/>
+			<DefaultFolderForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<DefaultFolderChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryFolderForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<AuxiliaryFolderChoiceForm/>
+			<BasedOn/>
+			<DataLockFields/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>Use</FullTextSearch>
+			<ObjectPresentation/>
+			<ExtendedObjectPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<DataHistory>DontUse</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfCharacteristicTypes>
+</MetaDataObject>

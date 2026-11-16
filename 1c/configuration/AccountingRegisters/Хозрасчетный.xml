@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AccountingRegister uuid="19e954c6-bdff-4ab6-99b2-c6272d80c12a">
+		<InternalInfo>
+			<xr:GeneratedType name="AccountingRegisterRecord.Хозрасчетный" category="Record">
+				<xr:TypeId>22c5b3bd-e5c0-4f97-a7c7-7cc4877e403d</xr:TypeId>
+				<xr:ValueId>32f6648b-c20b-4b1b-bcec-0c9f03e3c0f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterExtDimensions.Хозрасчетный" category="ExtDimensions">
+				<xr:TypeId>e0da7596-35cc-4c0d-a264-22fdb6dab633</xr:TypeId>
+				<xr:ValueId>2c39f874-8e66-4c0a-b10a-4b96f85ffc20</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterRecordSet.Хозрасчетный" category="RecordSet">
+				<xr:TypeId>8a51f841-a26c-4d32-9928-5cd5ec978603</xr:TypeId>
+				<xr:ValueId>511b5dd6-8c92-40b7-b70a-d8093b51f106</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterRecordKey.Хозрасчетный" category="RecordKey">
+				<xr:TypeId>55dc6a36-8aa4-4398-9065-f5d1eed9c143</xr:TypeId>
+				<xr:ValueId>5f6926d8-2492-427e-90f2-8dd7802eda45</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterSelection.Хозрасчетный" category="Selection">
+				<xr:TypeId>1c054089-5b44-4bab-8c80-f6e0d92aace4</xr:TypeId>
+				<xr:ValueId>4fcfd0c2-53a1-4810-8515-a04a91800749</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterList.Хозрасчетный" category="List">
+				<xr:TypeId>d7e3e72e-652a-4520-8735-b6f1ba81fce7</xr:TypeId>
+				<xr:ValueId>438de763-57b5-4fd7-a064-6af76976f6de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccountingRegisterManager.Хозрасчетный" category="Manager">
+				<xr:TypeId>2c1e7798-4578-4822-853d-8a5c9203f81c</xr:TypeId>
+				<xr:ValueId>af2f7996-2258-4a01-98b3-e71248a46b7a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Хозрасчетный</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Хозрасчетный</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Регистр бухгалтерского учета финансового контура AI Finance Desk</Comment>
+			<UseStandardCommands>true</UseStandardCommands>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ChartOfAccounts>ChartOfAccounts.Хозрасчетный</ChartOfAccounts>
+			<Correspondence>true</Correspondence>
+			<PeriodAdjustmentLength>0</PeriodAdjustmentLength>
+			<DefaultListForm/>
+			<AuxiliaryListForm/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<EnableTotalsSplitting>true</EnableTotalsSplitting>
+			<FullTextSearch>DontUse</FullTextSearch>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="361f6ae9-4601-4116-bdc3-b0b48650344d">
+				<Properties>
+					<Name>Сумма</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Balance>true</Balance>
+					<AccountingFlag/>
+					<ExtDimensionAccountingFlag/>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</AccountingRegister>
+</MetaDataObject>

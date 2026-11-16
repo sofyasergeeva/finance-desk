@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Остаток</dataPath>
+			<field>Остаток</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остаток</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоДт2</dataPath>
+			<field>СубконтоДт2</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорСубконто2</dataPath>
+			<field>КорСубконто2</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудник</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорСубконто3</dataPath>
+			<field>КорСубконто3</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Выдано</dataPath>
+			<field>Выдано</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выдано</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подтверждено</dataPath>
+			<field>Подтверждено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подтверждено</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Возвращено</dataPath>
+			<field>Возвращено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Возвращено</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоДт1</dataPath>
+			<field>СубконтоДт1</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетДт</dataPath>
+			<field>СчетДт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоДт3</dataPath>
+			<field>СубконтоДт3</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетКт</dataPath>
+			<field>СчетКт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоКт1</dataPath>
+			<field>СубконтоКт1</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоКт2</dataPath>
+			<field>СубконтоКт2</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СубконтоКт3</dataPath>
+			<field>СубконтоКт3</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Счет</dataPath>
+			<field>Счет</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Субконто1</dataPath>
+			<field>Субконто1</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Субконто2</dataPath>
+			<field>Субконто2</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Субконто3</dataPath>
+			<field>Субконто3</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорСчет</dataPath>
+			<field>КорСчет</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорСубконто1</dataPath>
+			<field>КорСубконто1</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ВЫРАЗИТЬ(
+		Движения.СубконтоДт1
+		КАК Справочник.Организации
+	) КАК Организация,
+
+	ВЫРАЗИТЬ(
+		Движения.СубконтоДт2
+		КАК Справочник.Сотрудники
+	) КАК Сотрудник,
+
+	Движения.Сумма КАК Выдано,
+	0 КАК Подтверждено,
+	0 КАК Возвращено,
+	0 КАК Остаток
+
+ИЗ
+	РегистрБухгалтерии.Хозрасчетный.ДвиженияССубконто КАК Движения
+
+ГДЕ
+	Движения.Активность
+	И Движения.Период МЕЖДУ
+		НАЧАЛОПЕРИОДА(&amp;НачалоПериода, ДЕНЬ)
+		И КОНЕЦПЕРИОДА(&amp;КонецПериода, ДЕНЬ)
+	И Движения.СчетДт =
+		ЗНАЧЕНИЕ(ПланСчетов.Хозрасчетный.РасчетыСППодотчетнымиЛицами)
+
+
+ОБЪЕДИНИТЬ ВСЕ
+
+
+ВЫБРАТЬ
+	ВЫРАЗИТЬ(
+		Движения.СубконтоКт1
+		КАК Справочник.Организации
+	),
+
+	ВЫРАЗИТЬ(
+		Движения.СубконтоКт2
+		КАК Справочник.Сотрудники
+	),
+
+	0,
+	Движения.Сумма,
+	0,
+	0
+
+ИЗ
+	РегистрБухгалтерии.Хозрасчетный.ДвиженияССубконто КАК Движения
+
+ГДЕ
+	Движения.Активность
+	И Движения.Период МЕЖДУ
+		НАЧАЛОПЕРИОДА(&amp;НачалоПериода, ДЕНЬ)
+		И КОНЕЦПЕРИОДА(&amp;КонецПериода, ДЕНЬ)
+	И Движения.СчетКт =
+		ЗНАЧЕНИЕ(ПланСчетов.Хозрасчетный.РасчетыСППодотчетнымиЛицами)
+	И Движения.СчетДт =
+		ЗНАЧЕНИЕ(ПланСчетов.Хозрасчетный.ОбщехозяйственныеРасходы)
+
+
+ОБЪЕДИНИТЬ ВСЕ
+
+
+ВЫБРАТЬ
+	ВЫРАЗИТЬ(
+		Движения.СубконтоКт1
+		КАК Справочник.Организации
+	),
+
+	ВЫРАЗИТЬ(
+		Движения.СубконтоКт2
+		КАК Справочник.Сотрудники
+	),
+
+	0,
+	0,
+	Движения.Сумма,
+	0
+
+ИЗ
+	РегистрБухгалтерии.Хозрасчетный.ДвиженияССубконто КАК Движения
+
+ГДЕ
+	Движения.Активность
+	И Движения.Период МЕЖДУ
+		НАЧАЛОПЕРИОДА(&amp;НачалоПериода, ДЕНЬ)
+		И КОНЕЦПЕРИОДА(&amp;КонецПериода, ДЕНЬ)
+	И Движения.СчетКт =
+		ЗНАЧЕНИЕ(ПланСчетов.Хозрасчетный.РасчетыСППодотчетнымиЛицами)
+	И Движения.СчетДт В (
+		ЗНАЧЕНИЕ(ПланСчетов.Хозрасчетный.Касса),
+		ЗНАЧЕНИЕ(ПланСчетов.Хозрасчетный.РасчетныеСчета)
+	)
+
+
+ОБЪЕДИНИТЬ ВСЕ
+
+
+ВЫБРАТЬ
+	ВЫРАЗИТЬ(
+		Остатки.Субконто1
+		КАК Справочник.Организации
+	),
+
+	ВЫРАЗИТЬ(
+		Остатки.Субконто2
+		КАК Справочник.Сотрудники
+	),
+
+	0,
+	0,
+	0,
+
+	Остатки.СуммаКонечныйОстатокДт
+		- Остатки.СуммаКонечныйОстатокКт
+
+ИЗ
+	РегистрБухгалтерии.Хозрасчетный.ОстаткиИОбороты(
+		НАЧАЛОПЕРИОДА(&amp;НачалоПериода, ДЕНЬ),
+		КОНЕЦПЕРИОДА(&amp;КонецПериода, ДЕНЬ)
+	) КАК Остатки
+
+ГДЕ
+	Остатки.Счет =
+		ЗНАЧЕНИЕ(ПланСчетов.Хозрасчетный.РасчетыСППодотчетнымиЛицами)</query>
+	</dataSet>
+	<totalField>
+		<dataPath>Выдано</dataPath>
+		<expression>Сумма(Выдано)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Подтверждено</dataPath>
+		<expression>Сумма(Подтверждено)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Возвращено</dataPath>
+		<expression>Сумма(Возвращено)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Остаток</dataPath>
+		<expression>Сумма(Остаток)</expression>
+	</totalField>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Первые</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Первые</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">0</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Выдано</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Подтверждено</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Возвращено</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Остаток</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Организация</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Сотрудник</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>НачалоПериода</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>fba44a16-c586-4773-b281-81db2c943938</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>КонецПериода</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>5290437a-8718-4dfe-b970-0be41641273b</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Сотрудник</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

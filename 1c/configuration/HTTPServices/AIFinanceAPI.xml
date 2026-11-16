@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<HTTPService uuid="aff3807e-6c2e-4dc4-b5c5-0c4b857e0ce2">
+		<Properties>
+			<Name>AIFinanceAPI</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>AIFinance API</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<RootURL>api</RootURL>
+			<ReuseSessions>AutoUse</ReuseSessions>
+			<SessionMaxAge>20</SessionMaxAge>
+		</Properties>
+		<ChildObjects>
+			<URLTemplate uuid="ac55fdf2-b492-4456-9d36-989047f9e636">
+				<Properties>
+					<Name>Health</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Health</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/health</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="bf503553-d618-41bb-922e-bfd6cbcb8de5">
+						<Properties>
+							<Name>GetHealth</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get health</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>HealthGetHealth</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="6ff5b7cb-21cf-463a-8768-a6ee3ca0a486">
+				<Properties>
+					<Name>CustomerDebts</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Customer debts</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/customer-debts</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="ec7a7da5-340a-439d-bf09-3c2bbf1b4a64">
+						<Properties>
+							<Name>GetCustomerDebts</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get customer debts</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>CustomerDebtsGetCustomerDebts</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="821adf64-3a84-4cb4-bdcc-998858caff51">
+				<Properties>
+					<Name>AccountTurnover</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Account turnover</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/account-turnover</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="7241a259-2104-4732-b96e-09eb7a6f31da">
+						<Properties>
+							<Name>GetAccountTurnover</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get account turnover</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>AccountTurnoverGetAccountTurnover</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="db7bc8ae-e6d1-4af7-8d86-fb3cd1c2c678">
+				<Properties>
+					<Name>DocumentPostings</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Document postings</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/document-postings</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="a9896567-175f-4804-98e8-a2e9502e6b2f">
+						<Properties>
+							<Name>GetDocumentPostings</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get document postings</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>DocumentPostingsGetDocumentPostings</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+		</ChildObjects>
+	</HTTPService>
+</MetaDataObject>

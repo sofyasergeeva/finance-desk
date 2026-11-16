@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Организация" id="7">
+			<DataPath>Объект.Организация</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="9"/>
+			<Events>
+				<Event name="OnChange">ОрганизацияПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="Контрагент" id="10">
+			<DataPath>Объект.Контрагент</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КонтрагентКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="12"/>
+			<Events>
+				<Event name="OnChange">КонтрагентПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="Договор" id="13">
+			<DataPath>Объект.Договор</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДоговорКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ДоговорРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="Ответственный" id="16">
+			<DataPath>Объект.Ответственный</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ДатаПлановогоЗавершения" id="19">
+			<DataPath>Объект.ДатаПлановогоЗавершения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаПлановогоЗавершенияКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ДатаПлановогоЗавершенияРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="Сумма" id="22">
+			<DataPath>Объект.Сумма</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СуммаКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="Описание" id="25">
+			<DataPath>Объект.Описание</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОписаниеКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<CheckBoxField name="Закрыта" id="28">
+			<DataPath>Объект.Закрыта</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ЗакрытаКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ЗакрытаРасширеннаяПодсказка" id="30"/>
+		</CheckBoxField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.Сделка</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Parameters>
+		<Parameter name="ОрганизацияОснование">
+			<Type>
+				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="КонтрагентОснование">
+			<Type>
+				<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="ДоговорОснование">
+			<Type>
+				<v8:Type>cfg:CatalogRef.Договоры</v8:Type>
+			</Type>
+		</Parameter>
+	</Parameters>
+</Form>

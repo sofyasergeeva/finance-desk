@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<ChartOfAccounts uuid="abca8d00-b233-4f40-b94a-e5435d1d6d18">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfAccountsObject.Хозрасчетный" category="Object">
+				<xr:TypeId>9dab628f-7782-43c1-b385-a68001882dde</xr:TypeId>
+				<xr:ValueId>a886ee2f-2ea4-4435-8661-9b2c28b99d58</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsRef.Хозрасчетный" category="Ref">
+				<xr:TypeId>890cfa40-1735-40dc-aacf-4ed08bb2361d</xr:TypeId>
+				<xr:ValueId>e8e63e44-4e2a-4610-a770-ac333360d135</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsSelection.Хозрасчетный" category="Selection">
+				<xr:TypeId>51630f85-0110-43e9-8c84-8916c66f648d</xr:TypeId>
+				<xr:ValueId>1f0834d6-0aee-49c2-b96c-9294abff7454</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsList.Хозрасчетный" category="List">
+				<xr:TypeId>57c8acc6-afb3-49f0-924a-45cdf936a88c</xr:TypeId>
+				<xr:ValueId>be1f4c7c-163e-496d-b24c-316b8e5b1b29</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsManager.Хозрасчетный" category="Manager">
+				<xr:TypeId>5bd25ef5-ef77-4ed4-bdc6-8a6906ac499a</xr:TypeId>
+				<xr:ValueId>f9938b01-f8e2-45a2-aec2-5802395ba2c4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsExtDimensionTypes.Хозрасчетный" category="ExtDimensionTypes">
+				<xr:TypeId>35f6ad51-2ee3-4898-ad20-79bf0f2c986c</xr:TypeId>
+				<xr:ValueId>7d21d0fa-4536-4840-a29a-325102fb7a67</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfAccountsExtDimensionTypesRow.Хозрасчетный" category="ExtDimensionTypesRow">
+				<xr:TypeId>b8f94022-3b9e-4be9-8935-f18ec27f070a</xr:TypeId>
+				<xr:ValueId>6562ee43-f916-44ad-a0d6-821eb0f9ce9d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Хозрасчетный</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Хозрасчетный</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Упрощенный план счетов финансового контура AI Finance Desk</Comment>
+			<UseStandardCommands>true</UseStandardCommands>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<BasedOn/>
+			<ExtDimensionTypes>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетные</ExtDimensionTypes>
+			<MaxExtDimensionCount>3</MaxExtDimensionCount>
+			<CodeMask/>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>25</DescriptionLength>
+			<CodeSeries>WholeChartOfAccounts</CodeSeries>
+			<CheckUnique>true</CheckUnique>
+			<DefaultPresentation>AsCode</DefaultPresentation>
+			<Characteristics/>
+			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
+			<EditType>InDialog</EditType>
+			<QuickChoice>false</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<InputByString>
+				<xr:Field>ChartOfAccounts.Хозрасчетный.StandardAttribute.Description</xr:Field>
+				<xr:Field>ChartOfAccounts.Хозрасчетный.StandardAttribute.Code</xr:Field>
+			</InputByString>
+			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<CreateOnInput>DontUse</CreateOnInput>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<DefaultObjectForm>ChartOfAccounts.Хозрасчетный.Form.ФормаСчета</DefaultObjectForm>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<AutoOrderByCode>true</AutoOrderByCode>
+			<OrderLength>9</OrderLength>
+			<DataLockFields/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>Use</FullTextSearch>
+			<DataHistory>DontUse</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+			<ObjectPresentation/>
+			<ExtendedObjectPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаСчета</Form>
+		</ChildObjects>
+	</ChartOfAccounts>
+</MetaDataObject>

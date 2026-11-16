@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.19">
+	<Item id="2f724bf8-3f18-4222-ab83-a63d2b76611b">
+		<Name>БанковскиеСчета</Name>
+		<Code>000000006</Code>
+		<Description>Банковские счета</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.БанковскиеСчета</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fc8a8c0a-0ad3-41e5-bf83-603f65966a6f">
+		<Name>Договоры</Name>
+		<Code>000000003</Code>
+		<Description>Договоры</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Договоры</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="29b44fe8-9b24-4113-8505-f43d656dc8dc">
+		<Name>Кассы</Name>
+		<Code>000000005</Code>
+		<Description>Кассы</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Кассы</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bf436378-2088-4c73-8abd-1f97d8b8570b">
+		<Name>Контрагенты</Name>
+		<Code>000000002</Code>
+		<Description>Контрагенты</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Контрагенты</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0cf30a3e-1475-4207-9744-f5255ab80e49">
+		<Name>Организации</Name>
+		<Code>000000001</Code>
+		<Description>Организации</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7ce3be81-fa59-4cd9-a2a3-86def8d5dc06">
+		<Name>Сотрудники</Name>
+		<Code>000000004</Code>
+		<Description>Сотрудники</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Сотрудники</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
