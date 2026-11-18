@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Onest;
+  src: url('/fonts/onest-400.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: Onest;
+  src: url('/fonts/onest-500.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: Onest;
+  src: url('/fonts/onest-600.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: Onest;
+  src: url('/fonts/onest-700.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+:root {
+  font-family: Onest, 'Segoe UI', sans-serif;
+  font-synthesis: none;
+  color-scheme: dark;
+  font-size: 15px;
+  line-height: 1.55;
+  --coral: #f3a6ba;
+  --danger: #ffb4b4;
+  --ink: #0d0b0b;
+  --surface: #1c201f;
+  --raised: #2a2f2d;
+  --line: #535f58;
+  --soft-line: #ffffff16;
+  --text: #eff8ff;
+  --muted: #b5bfba;
+  --accent: #bbef1f;
+  --ice: #eff8ff;
+  --expense: #ff9eb9;
+  --control-border: #7c8b82;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --hot: #ff0055;
+  color: var(--ice);
+  background: var(--ink);
+}

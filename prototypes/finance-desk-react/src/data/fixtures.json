@@ -1,0 +1,586 @@
+{
+  "organizations": [
+    {
+      "id": "kontur",
+      "name": "Студия «Контур»",
+      "legal": "ООО «Контур Диджитал»",
+      "initials": "К",
+      "accounts": [
+        {
+          "id": "bank",
+          "name": "Расчётный счёт",
+          "detail": "Банк · •• 4082",
+          "opening": 124000000,
+          "icon": "bank"
+        },
+        {
+          "id": "deposit",
+          "name": "Депозит",
+          "detail": "Банк · •• 9016",
+          "opening": 38000000,
+          "icon": "vault"
+        },
+        {
+          "id": "cash",
+          "name": "Касса",
+          "detail": "Офис студии",
+          "opening": 2250000,
+          "icon": "wallet"
+        }
+      ]
+    },
+    {
+      "id": "line",
+      "name": "Бюро «Линия»",
+      "legal": "ООО «Линия»",
+      "initials": "Л",
+      "accounts": [
+        {
+          "id": "bank",
+          "name": "Расчётный счёт",
+          "detail": "Банк · •• 7410",
+          "opening": 48000000,
+          "icon": "bank"
+        },
+        {
+          "id": "cash",
+          "name": "Касса",
+          "detail": "Офис бюро",
+          "opening": 1200000,
+          "icon": "wallet"
+        }
+      ]
+    }
+  ],
+  "counterparties": [
+    {
+      "id": "p1",
+      "name": "Меридиан",
+      "initials": "М",
+      "color": "lavender",
+      "contact": "Ольга Волкова",
+      "email": "finance@meridian.example",
+      "inn": "0000000024"
+    },
+    {
+      "id": "p2",
+      "name": "Форма",
+      "initials": "Ф",
+      "color": "mint",
+      "contact": "Мария Котова",
+      "email": "hello@forma.example",
+      "inn": "0000000031"
+    },
+    {
+      "id": "p3",
+      "name": "Атлас",
+      "initials": "А",
+      "color": "peach",
+      "contact": "Алексей Белов",
+      "email": "office@atlas.example",
+      "inn": "0000000018"
+    },
+    {
+      "id": "p4",
+      "name": "Бюро 12",
+      "initials": "Б",
+      "color": "pink",
+      "contact": "Ирина Лебедева",
+      "email": "team@buro12.example",
+      "inn": "0000000036"
+    },
+    {
+      "id": "p5",
+      "name": "Спектр",
+      "initials": "С",
+      "color": "peach",
+      "contact": "Павел Морозов",
+      "email": "billing@spectr.example",
+      "inn": "0000000012"
+    },
+    {
+      "id": "p6",
+      "name": "Облако",
+      "initials": "О",
+      "color": "lavender",
+      "contact": "Служба поддержки",
+      "email": "billing@oblako.example",
+      "inn": "0000000008"
+    },
+    {
+      "id": "p7",
+      "name": "Пространство",
+      "initials": "П",
+      "color": "mint",
+      "contact": "Елена Соколова",
+      "email": "rent@space.example",
+      "inn": "0000000003"
+    },
+    {
+      "id": "p8",
+      "name": "Север",
+      "initials": "С",
+      "color": "lavender",
+      "contact": "Денис Петров",
+      "email": "team@sever.example",
+      "inn": "0000000011"
+    },
+    {
+      "id": "p9",
+      "name": "Точка",
+      "initials": "Т",
+      "color": "peach",
+      "contact": "Иван Лапин",
+      "email": "office@tochka.example",
+      "inn": "0000000004"
+    }
+  ],
+  "contracts": [
+    {
+      "id": "c1",
+      "org": "kontur",
+      "party": "p1",
+      "direction": "client",
+      "number": "К-024",
+      "title": "Разработка сайта",
+      "openingAccrued": 54000000,
+      "openingPaid": 18000000,
+      "owner": "Анна Сергеева"
+    },
+    {
+      "id": "c2",
+      "org": "kontur",
+      "party": "p2",
+      "direction": "client",
+      "number": "К-031",
+      "title": "Брендинг и дизайн",
+      "openingAccrued": 32000000,
+      "openingPaid": 10000000,
+      "owner": "Анна Сергеева"
+    },
+    {
+      "id": "c3",
+      "org": "kontur",
+      "party": "p3",
+      "direction": "client",
+      "number": "К-018",
+      "title": "Сопровождение продукта",
+      "openingAccrued": 28000000,
+      "openingPaid": 10000000,
+      "owner": "Дмитрий Орлов"
+    },
+    {
+      "id": "c4",
+      "org": "kontur",
+      "party": "p4",
+      "direction": "client",
+      "number": "К-036",
+      "title": "Дизайн интерфейса",
+      "openingAccrued": 9000000,
+      "openingPaid": 4000000,
+      "owner": "Анна Сергеева"
+    },
+    {
+      "id": "s1",
+      "org": "kontur",
+      "party": "p5",
+      "direction": "supplier",
+      "number": "П-012",
+      "title": "Разработка и поддержка",
+      "openingAccrued": 30000000,
+      "openingPaid": 18000000,
+      "owner": "Анна Сергеева"
+    },
+    {
+      "id": "s2",
+      "org": "kontur",
+      "party": "p6",
+      "direction": "supplier",
+      "number": "П-008",
+      "title": "Хостинг и инфраструктура",
+      "openingAccrued": 18000000,
+      "openingPaid": 12000000,
+      "owner": "Дмитрий Орлов"
+    },
+    {
+      "id": "s3",
+      "org": "kontur",
+      "party": "p7",
+      "direction": "supplier",
+      "number": "П-003",
+      "title": "Аренда офиса",
+      "openingAccrued": 42000000,
+      "openingPaid": 8000000,
+      "owner": "Анна Сергеева"
+    },
+    {
+      "id": "l1",
+      "org": "line",
+      "party": "p8",
+      "direction": "client",
+      "number": "Л-011",
+      "title": "Аналитика и проектирование",
+      "openingAccrued": 32000000,
+      "openingPaid": 11000000,
+      "owner": "Анна Сергеева"
+    },
+    {
+      "id": "l2",
+      "org": "line",
+      "party": "p9",
+      "direction": "supplier",
+      "number": "Л-004",
+      "title": "Аренда рабочего места",
+      "openingAccrued": 9000000,
+      "openingPaid": 5000000,
+      "owner": "Анна Сергеева"
+    },
+    {
+      "id": "c1b",
+      "org": "kontur",
+      "party": "p1",
+      "direction": "client",
+      "number": "K-040",
+      "title": "Поддержка сайта",
+      "openingAccrued": 0,
+      "openingPaid": 0,
+      "owner": "Анна Сергеева"
+    },
+    {
+      "id": "s4",
+      "org": "kontur",
+      "party": "p4",
+      "direction": "supplier",
+      "number": "P-019",
+      "title": "Дизайн-консалтинг",
+      "openingAccrued": 4000000,
+      "openingPaid": 4000000,
+      "owner": "Анна Сергеева"
+    }
+  ],
+  "documents": [
+    {
+      "id": "d01",
+      "org": "kontur",
+      "contract": "c1",
+      "kind": "act",
+      "number": "А-048",
+      "date": "2026-10-06",
+      "amount": 24000000,
+      "description": "Разработка сайта. Второй этап",
+      "status": "posted"
+    },
+    {
+      "id": "d02",
+      "org": "kontur",
+      "contract": "c1",
+      "kind": "in",
+      "number": "ПД-062",
+      "date": "2026-10-12",
+      "amount": 16000000,
+      "account": "bank",
+      "description": "Частичная оплата по договору К-024",
+      "status": "posted"
+    },
+    {
+      "id": "d03",
+      "org": "kontur",
+      "contract": "c3",
+      "kind": "act",
+      "number": "А-051",
+      "date": "2026-10-15",
+      "amount": 12400000,
+      "description": "Сопровождение продукта за октябрь",
+      "status": "posted"
+    },
+    {
+      "id": "d04",
+      "org": "kontur",
+      "contract": "c3",
+      "kind": "in",
+      "number": "ПД-066",
+      "date": "2026-10-22",
+      "amount": 9000000,
+      "account": "bank",
+      "description": "Оплата сопровождения",
+      "status": "posted"
+    },
+    {
+      "id": "d05",
+      "org": "kontur",
+      "contract": "s2",
+      "kind": "purchase",
+      "number": "У-029",
+      "date": "2026-10-08",
+      "amount": 9600000,
+      "description": "Облачная инфраструктура",
+      "status": "posted"
+    },
+    {
+      "id": "d06",
+      "org": "kontur",
+      "contract": "s2",
+      "kind": "out",
+      "number": "СД-041",
+      "date": "2026-10-16",
+      "amount": 6000000,
+      "account": "bank",
+      "description": "Оплата услуг инфраструктуры",
+      "status": "posted"
+    },
+    {
+      "id": "d07",
+      "org": "kontur",
+      "contract": "s3",
+      "kind": "out",
+      "number": "СД-045",
+      "date": "2026-10-26",
+      "amount": 12000000,
+      "account": "bank",
+      "description": "Аренда офиса",
+      "status": "posted"
+    },
+    {
+      "id": "d08",
+      "org": "kontur",
+      "contract": "s3",
+      "kind": "out",
+      "number": "СД-048",
+      "date": "2026-11-02",
+      "amount": 12000000,
+      "account": "bank",
+      "description": "Аренда офиса за ноябрь",
+      "status": "posted"
+    },
+    {
+      "id": "d09",
+      "org": "kontur",
+      "contract": "c2",
+      "kind": "act",
+      "number": "А-054",
+      "date": "2026-11-05",
+      "amount": 18000000,
+      "description": "Разработка визуальной системы",
+      "status": "posted"
+    },
+    {
+      "id": "d10",
+      "org": "kontur",
+      "contract": "s1",
+      "kind": "purchase",
+      "number": "У-033",
+      "date": "2026-11-09",
+      "amount": 16000000,
+      "description": "Разработка модуля личного кабинета",
+      "status": "posted"
+    },
+    {
+      "id": "d11",
+      "org": "kontur",
+      "contract": "c2",
+      "kind": "in",
+      "number": "ПД-071",
+      "date": "2026-11-12",
+      "amount": 18000000,
+      "account": "bank",
+      "description": "Оплата по договору К-031",
+      "status": "posted"
+    },
+    {
+      "id": "d12",
+      "org": "kontur",
+      "contract": "s2",
+      "kind": "out",
+      "number": "СД-051",
+      "date": "2026-11-13",
+      "amount": 4000000,
+      "account": "bank",
+      "description": "Оплата облачной инфраструктуры",
+      "status": "posted"
+    },
+    {
+      "id": "d13",
+      "org": "kontur",
+      "contract": "c4",
+      "kind": "act",
+      "number": "А-057",
+      "date": "2026-11-16",
+      "amount": 8000000,
+      "description": "Прототипирование интерфейса",
+      "status": "posted"
+    },
+    {
+      "id": "d14",
+      "org": "kontur",
+      "contract": "s1",
+      "kind": "out",
+      "number": "СД-053",
+      "date": "2026-11-17",
+      "amount": 9000000,
+      "account": "bank",
+      "description": "Частичная оплата разработки",
+      "status": "posted"
+    },
+    {
+      "id": "d15",
+      "org": "kontur",
+      "contract": "c1",
+      "kind": "in",
+      "number": "ПД-075",
+      "date": "2026-11-18",
+      "amount": 20000000,
+      "account": "bank",
+      "description": "Частичная оплата по договору К-024",
+      "status": "posted"
+    },
+    {
+      "id": "d16",
+      "org": "kontur",
+      "contract": "c1",
+      "kind": "act",
+      "number": "А-058",
+      "date": "2026-11-18",
+      "amount": 9600000,
+      "description": "Дополнительные работы по сайту",
+      "status": "draft"
+    },
+    {
+      "id": "d17",
+      "org": "line",
+      "contract": "l1",
+      "kind": "act",
+      "number": "А-012",
+      "date": "2026-11-04",
+      "amount": 9000000,
+      "description": "Проектирование сервиса",
+      "status": "posted"
+    },
+    {
+      "id": "d18",
+      "org": "line",
+      "contract": "l1",
+      "kind": "in",
+      "number": "ПД-018",
+      "date": "2026-11-17",
+      "amount": 12000000,
+      "account": "bank",
+      "description": "Оплата проектирования",
+      "status": "posted"
+    },
+    {
+      "id": "d19",
+      "org": "line",
+      "contract": "l2",
+      "kind": "out",
+      "number": "СД-009",
+      "date": "2026-11-12",
+      "amount": 2000000,
+      "account": "bank",
+      "description": "Аренда рабочего места",
+      "status": "posted"
+    },
+    {
+      "id": "d20",
+      "org": "kontur",
+      "contract": "c1b",
+      "kind": "act",
+      "number": "A-055",
+      "date": "2026-11-07",
+      "amount": 6000000,
+      "description": "Сопровождение сайта",
+      "status": "posted"
+    }
+  ],
+  "threads": [
+    {
+      "id": "t1",
+      "org": "kontur",
+      "contract": "c1",
+      "title": "Уточнить остаток по Меридиану",
+      "person": "Елена Соколова",
+      "assignee": "Анна Сергеева",
+      "date": "Сегодня, 10:40",
+      "resolved": false,
+      "messages": [
+        {
+          "name": "Елена Соколова",
+          "text": "Клиент сообщил об оплате 200 000 ₽. Проверь, пожалуйста, поступление и остаток по договору.",
+          "time": "10:40"
+        },
+        {
+          "name": "Анна Сергеева",
+          "text": "Поступление ПД-075 уже отражено. По договору К-024 осталось 240 000 ₽. Акт А-058 пока в черновике.",
+          "time": "11:15"
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "org": "kontur",
+      "contract": "c4",
+      "title": "Проверить акт для Бюро 12",
+      "person": "Дмитрий Орлов",
+      "assignee": "Анна Сергеева",
+      "date": "Сегодня, 09:20",
+      "resolved": false,
+      "messages": [
+        {
+          "name": "Дмитрий Орлов",
+          "text": "Акт А-057 подготовлен по завершённому этапу. Посмотри состав услуг перед отправкой клиенту.",
+          "time": "09:20"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "org": "kontur",
+      "contract": "s2",
+      "title": "Сверить расчёты с Облаком",
+      "person": "Елена Соколова",
+      "assignee": "Дмитрий Орлов",
+      "date": "Вчера, 16:30",
+      "resolved": false,
+      "messages": [
+        {
+          "name": "Елена Соколова",
+          "text": "Нужно сверить расчёты за октябрь и ноябрь с документами поставщика. Есть ли все поступления услуг?",
+          "time": "Вчера, 16:30"
+        }
+      ]
+    },
+    {
+      "id": "t4",
+      "org": "kontur",
+      "contract": "c2",
+      "title": "Оплата от Формы найдена",
+      "person": "Анна Сергеева",
+      "assignee": "Анна Сергеева",
+      "date": "12 ноября",
+      "resolved": true,
+      "messages": [
+        {
+          "name": "Анна Сергеева",
+          "text": "Поступление ПД-071 на 180 000 ₽ отражено по договору К-031. Вопрос закрыт.",
+          "time": "12 ноября"
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "org": "line",
+      "contract": "l1",
+      "title": "Уточнить расчёты с Севером",
+      "person": "Елена Соколова",
+      "assignee": "Анна Сергеева",
+      "date": "Сегодня, 11:00",
+      "resolved": false,
+      "messages": [
+        {
+          "name": "Елена Соколова",
+          "text": "Проверь, пожалуйста, остаток после последнего поступления по договору Л-011.",
+          "time": "11:00"
+        }
+      ]
+    }
+  ]
+}

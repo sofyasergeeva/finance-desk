@@ -1,1 +1,9 @@
 /course-materials/
+/prototypes/**/node_modules/
+/prototypes/**/dist/
+/prototypes/**/.artifacts/
+/prototypes/**/.npm-cache/
+/prototypes/**/*.tsbuildinfo
+/prototypes/**/*.log
+/.agents/
+/skills-lock.json
