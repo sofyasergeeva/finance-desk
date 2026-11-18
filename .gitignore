@@ -5,5 +5,3 @@
 /prototypes/**/.npm-cache/
 /prototypes/**/*.tsbuildinfo
 /prototypes/**/*.log
-/.agents/
-/skills-lock.json
